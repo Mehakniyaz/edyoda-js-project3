@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+
+
+#product_list{
+    /* border:1px solid red;  */
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap; 
+}
+.right_container{
+     /* border:1px solid black;  */
+    
+        width: 58%;
+        margin-top: 40px;
+        padding-left: 30px;
+    
+}
+.left_container{
+    /* border:3px solid purple; */
+    margin:10px;
+    width: 40%;
+    height:30%
+}
+
+
+.left_container .prev-img{
+    width: 100%;
+    margin-top: 50px;
+    /* border:10px solid red */
+    
+}
+.prevImgCont{
+    display:flex
+}
+
+
+
+.productDescDiv{
+    margin-bottom: 40px;
+}
+.productDescDiv h1 {
+    font-weight: 300;
+    font-size: 44px;
+    letter-spacing: -2px;
+    /* color: red; */
+}
+
+
+
+.productDescDiv .brand{
+    margin-top: 20px;
+    font-weight: 200;
+    font-size: 20px;
+    letter-spacing: 1px;
+    /* color:red; */
+    color: rgb(27, 25, 25); 
+}
+
+.productDescDiv  h3 {
+    margin-top: 20px;
+    font-weight: 200;
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: rgb(27, 25, 25); 
+    /* color:pink  */
+}
+
+.productDescDiv  h3 span{
+    color: #009688;
+    font-weight: bold;
+}
+
+.productDescription2 .item-desc {
+
+    margin-top: 20px;
+    font-weight: 200;
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: rgb(27, 25, 25); 
+    /* color:orangered; */
+}
+.btn{
+
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    padding: 10px 20px;
+    letter-spacing: 2px;
+    background-color: #009688;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 2px 10px rgb(0 0 0 / 50%);
+
+
+}
+
+.productDescription2 p {
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 300;
+    color: #86939e;
+   
+}
+
+
+.productPreviewContainer h3 {
+    margin-top: 20px;
+    font-weight: 200;
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: rgb(27, 25, 25);
+    
+}
+
+.productPreviewContainer .prevImgCont{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    margin-top: 20px;
+    /* border:1px solid red */
+}
+
+.right_container .productPreviewContainer .prevImgCont .sm-prev-img{
+    margin: 5px;
+    width: 15%;
+    height: 30%;
+    cursor: pointer;
+    padding: 4px;
+    border-radius: 6px;
+    /* border:2px solid red  */
+}
+.test{
+    border:1px solid red;
+    border-radius: 6px;
+}
